@@ -1,0 +1,28 @@
+(:author "Jiezhe Wang"
+ :deploy-dir "./blog"
+ :domain "https://einbisschenmath.github.io"
+ ; :feeds ("lisp")
+ :plugins ((analytics :tracking-code "UA-109312246-1")
+           (disqus :shortname "wangjiezhe")
+           ; (incremental)  ;; *Remove comment to enable incremental builds.
+           (mathjax
+            :location "https://cdn.mathjax.org/mathjax/latest/MathJax.js"
+            :config "tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']], processEscapes: true}")
+           (sitemap)
+           (static-pages)
+           ; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+          )
+ :routing ((:post           "posts/~a")
+           (:tag-index      "tag/~a")
+           (:month-index    "date/~a")
+           (:numeric-index  "~d")
+           (:feed           "~a.xml")
+           (:tag-feed       "tag/~a.xml"))
+ :sitenav ((:url "https://wangjiezhe.com" :name "Home")
+           (:url "https://twitter.com/wangjeizhe" :name "Twitter")
+           (:url "https://github.com/wangjiezhe" :name "Code"))
+ :staging-dir "/tmp/coleslaw/"
+ :title "Ein Bissen Math"
+ :theme "hyde")
+
+;; * Prerequisites described in plugin docs.
