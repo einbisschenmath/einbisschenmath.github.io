@@ -1,6 +1,6 @@
 (:author "Jiezhe Wang"
  :deploy-dir "./blog"
- :domain "https://einbisschenmath.github.io"
+ :domain "https://einbisschenmath.github.io/blog"
  ; :feeds ("lisp")
  :plugins ((analytics :tracking-code "UA-109312246-1")
            (disqus :shortname "wangjiezhe")
