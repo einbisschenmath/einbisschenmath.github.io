@@ -1,5 +1,5 @@
 (:author "Jiezhe Wang"
- :deploy-dir "./blog"
+ :deploy-dir "."
  :domain "https://einbisschenmath.github.io"
  ; :feeds ("lisp")
  :plugins ((analytics :tracking-code "UA-109312246-1")
@@ -10,7 +10,8 @@
             :config "tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']], processEscapes: true}")
            (sitemap)
            (static-pages)
-           ; (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+           (versioned)    ;; *Remove comment to enable symlinked, timestamped deploys.
+           ; (gh-pages)
           )
  :routing ((:post           "posts/~a")
            (:tag-index      "tag/~a")
