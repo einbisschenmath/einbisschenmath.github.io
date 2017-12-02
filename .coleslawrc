@@ -6,7 +6,7 @@
            (disqus :shortname "wangjiezhe")
            ; (incremental)  ;; *Remove comment to enable incremental builds.
            (mathjax
-            :location "https://cdn.mathjax.org/mathjax/latest/MathJax.js"
+            :location "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js"
             :config "tex2jax: {inlineMath: [['$','$'], ['\\\\(','\\\\)']], processEscapes: true}")
            (sitemap)
            (static-pages)
