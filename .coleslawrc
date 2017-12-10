@@ -20,7 +20,7 @@
            (:feed           "~a.xml")
            (:tag-feed       "tag/~a.xml"))
  :sitenav ((:url "https://wangjiezhe.com" :name "Home")
-           (:url "https://twitter.com/wangjeizhe" :name "Twitter")
+           (:url "https://twitter.com/wangjiezhe" :name "Twitter")
            (:url "https://github.com/wangjiezhe" :name "Code"))
  :staging-dir "/tmp/coleslaw/"
  :title "Ein Bissen Math"
