@@ -24,6 +24,6 @@
            (:url "https://github.com/wangjiezhe" :name "Code"))
  :staging-dir "/tmp/coleslaw/"
  :title "Ein Bissen Math"
- :theme "hyde")
+ :theme "readable")
 
 ;; * Prerequisites described in plugin docs.
